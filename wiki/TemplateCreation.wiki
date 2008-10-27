@@ -1,0 +1,10 @@
+#summary This page will guide you through the basics of template creation.
+
+= Introduction =
+
+This page will guide you through the basics of template creation.
+
+
+= Details =
+
+guide be here
