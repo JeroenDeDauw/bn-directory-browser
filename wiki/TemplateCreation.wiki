@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This page will guide you through the basics of template creation.
+As of version 0.4.0, a template system is integrated in the directory browser. This system enables you to easely switch between templates, and to create your own. Thanks to the MVC structure, it is not required to know PHP to create a new template. This page will guide you through the basics of template creation.
 
 
 = Details =
