@@ -7,4 +7,41 @@ As of version 0.4.0, a template system is integrated in the directory browser. T
 
 = Details =
 
-guide be here
+All templates can be found in the folder includes/templates/, in wich includes represents the name of the BN+ Directory browser system directory. One of the folders in this directory is _devellopers_template, wich contains all the files you need to create a new template.
+
+> body.php
+	This php file contains the xhtml structure of the template. 
+	Php can be used according to the MVC conventions.
+	Please use stylesheets for layout data.
+	
+	Avaible variables in body.php
+	> All configuration variables, in the array $config[] (see config.php)
+	> An array with the directory contents, $contents[]
+		> $contents["name"]:		The name of the file or directory
+		> $contents["url"]:		The url of the file or directory 
+		> $contents["icon"]:		The path to the icon
+		> $contents["modifiedDate"]: 	The data on wich the item was modified
+		> $contents["size"]: 		The size of the item
+	> An array with the directory data, $data[]
+		> "directory_url"		The url of the directory 
+		> "directory_valid"		False when an error occured
+		> "directory_error"		Error type
+		> "directory_size"		Total size
+		> "directory_amount"		Directory amount
+		> "directory_parent"		The url of the parent directory
+		> "directory_has_parent"	False when in root
+		> "directory_sortBy"		Name, date or size
+		> "directory_sort"		Ascending or descending
+		> "root_url"			The url of the root direcory
+		> "sort_name"			The url to sort on name
+		> "sort_date"			The url to sort on date
+		> "sort_size"			The url to sort on size
+		> "file_amount"			The amount of files
+		> "login_visible"		Gets if the user can login
+		> "logout_visible"		Gets if the user can logout
+		> "logout_url"			The logout url
+		> "directory_path"		The path of the directory
+
+> style.css
+	This css file contians the styles for both the template and the overall view.
+	Multiple stylesheets can be used to create sub-templates.
