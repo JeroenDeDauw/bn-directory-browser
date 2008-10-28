@@ -1,13 +1,8 @@
-#summary One-sentence summary of this page.
+#The configuration file examplained.
 
 = Introduction =
 
-Add your content here.
+This page will exaplain the details of your directory browser configuration.
 
 
 = Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
