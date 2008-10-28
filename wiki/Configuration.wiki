@@ -1,4 +1,4 @@
-#The configuration file examplained.
+#summary The configuration file examplained.
 
 = Introduction =
 
