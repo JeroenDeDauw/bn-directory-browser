@@ -7,7 +7,7 @@ As of version 0.4.0, a template system is integrated in the directory browser. T
 
 = Details =
 
-All templates can be found in the folder includes/templates/, in wich includes represents the name of the BN+ Directory browser system directory. One of the folders in this directory is _devellopers_template, wich contains all the files you need to create a new template.
+All templates can be found in the folder includes/templates/, in wich includes represents the name of the BN+ Directory browser system directory. One of the folders in this directory is _devellopers_template_ , wich contains all the files you need to create a new template.
 
 > body.php
 	This php file contains the xhtml structure of the template. 
